@@ -78,7 +78,7 @@ group :test do
   gem 'faker', '~> 1.4.3'
 
   # CI
-  gem 'codeclimate-test-reporter', '~> 0.4.6'
+  gem 'codeclimate-test-reporter'
 
   # TDD
   gem 'guard-rspec', '~> 4.5.0'

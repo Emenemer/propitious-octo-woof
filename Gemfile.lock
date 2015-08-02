@@ -319,7 +319,7 @@ DEPENDENCIES
   capybara (~> 2.4.4)
   capybara-email (~> 2.4.0)
   capybara-screenshot (~> 1.0.5)
-  codeclimate-test-reporter (~> 0.4.6)
+  codeclimate-test-reporter
   coffee-rails (~> 4.1.0)
   database_cleaner (~> 1.4.0)
   fabrication (~> 2.12.2)
