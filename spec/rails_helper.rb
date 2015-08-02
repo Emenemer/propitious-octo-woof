@@ -7,6 +7,7 @@ require 'spec_helper'
 require 'rspec/rails'
 require 'capybara/rails'
 require "codeclimate-test-reporter"
+WebMock.disable_net_connect!(:allow => "codeclimate.com")
 CodeClimate::TestReporter.start
 # Add additional requires below this line. Rails is not loaded until this point!
 
