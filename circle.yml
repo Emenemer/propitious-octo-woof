@@ -2,8 +2,7 @@ machine:
   ruby:
     version: 2.2.2
   environment:
-    CODECLIMATE_REPO_TOKEN: 
-73478cd87603068e4f9950577ceeacdfed04264f32220f9dfe7ff5c544b9e7f7
+    CODECLIMATE_REPO_TOKEN: 73478cd87603068e4f9950577ceeacdfed04264f32220f9dfe7ff5c544b9e7f7
 test:
   override:
     - bundle exec teaspoon:
