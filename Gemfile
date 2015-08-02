@@ -68,6 +68,8 @@ group :test do
   gem 'poltergeist', '~> 1.6.0'
   gem 'selenium-webdriver', '~> 2.44.0'
 
+  gem 'phantomjs'
+
   # mocking
   gem 'webmock', '~> 1.20.4'
   gem 'vcr', '~> 2.9.3'

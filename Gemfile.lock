@@ -151,6 +151,7 @@ GEM
       nenv (~> 0.1)
       shellany (~> 0.0)
     pg (0.18.2)
+    phantomjs (1.9.8.0)
     poltergeist (1.6.0)
       capybara (~> 2.1)
       cliver (~> 0.3.1)
@@ -333,6 +334,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   pg
+  phantomjs
   poltergeist (~> 1.6.0)
   pry-rails (~> 0.3.3)
   rails (= 4.2.3)
