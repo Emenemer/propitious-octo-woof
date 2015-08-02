@@ -17,6 +17,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
+WebMock.disable_net_connect!(:allow => "codeclimate.com")
 require "codeclimate-test-reporter"
 CodeClimate::TestReporter.start
 require 'capybara/rspec'
